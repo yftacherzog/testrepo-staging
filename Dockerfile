@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ubi:latest
+FROM alpine:latest
 
 COPY entrypoint.sh /
 
